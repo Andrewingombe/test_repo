@@ -10,4 +10,8 @@ app.get("/about", (req, res) => {
   res.send("Hello from the about page!!");
 });
 
+app.get("/login", (req, res) => {
+  res.send("The logon page has been updated");
+});
+
 app.listen(3000, () => console.log(`listening on port 3000`));
